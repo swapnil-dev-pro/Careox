@@ -13,10 +13,19 @@ ul,ol{
     width: 1320px;
     margin:0 auto;
 }
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    line-height:1.1;
+}
 /* common part end */
 .main{
     padding: 30px;
-    background-color:rgba(0, 0, 0, 0.756);
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    border-bottom: rgba(245, 222, 179, 0.374) solid 0.5px;
 }
 .contant{
     display: flex;
@@ -29,22 +38,161 @@ ul,ol{
 .menu ul,li,a{
     font-size:18px;
     color:white;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:700;
+    font-family:"Nunito Sans", sans-serif;
+    font-weight:600;
     text-transform: uppercase;
     padding:10px;
-    transition: 1s;
+    transition:1s;
+    text-shadow: 10px;
 }
 .icon i{
     color: white;
-    margin: 10px;
+    margin: 12px;
+    
 }
 .icon a{
-    padding:18px 44px;
+    padding:16px 46px;
     background: tomato;
     border-radius:30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .menu ul,li,a:hover{
     color:tomato;
+}
+.icon i:hover{
+    color:tomato}
+    /* Banner part start */
+#ban{
+    background: url(../images/slider-2-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overly{
+    padding-top:270px;
+    padding-bottom: 230px;
+    background: rgba(0, 0, 0, 0.258);
+}
+.text h1{
+    font-size: 65px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:600;
+    width: 620px;
+}
+.text h1 samp{
+    color:tomato;
+    border-bottom: solid tomato 2px;
+}
+.o{
+    position: relative;
+}
+.o a{
+    padding:20px 30px;
+    background-color:tomato;
+    border-radius: 30px;
+    color:white;
+    font-family:"Nunito Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    border: solid tomato 1px;
+    transition:1s;
+}
+.o a:hover{
+    background-color: transparent;
+    border: solid tomato 1px;
+}
+.don{
+    padding-bottom: 120px;
+}
+.f{
+    display:flex;
+    justify-content: space-between;
+}
+.item {
+    width: 30%;
+    background-color: blue;
+    height: 300px;
+    position: relative;
+}
+.item img{
+    width: 100%;
+    border-radius:0 0 15px 15px;
+}
+.text p{
+    color: white;
+    font-size: 18px;
+    font-family: Rubik, sans-serif;
+    width:540px;
+    margin:15px 15px 0px 0px;
+}
+.box{
+width:80%;
+background-color: aliceblue;
+border-radius:50% 0% 50% 0%;
+padding:50px 40px;
+position: absolute;
+top: -30%;
+}
+.box i{
+   font-size: 50px;
+    color:tomato;
+}
+.g{
+    position: relative;
+}
+.g h1{
+    position: absolute;
+    right:10%;
+    bottom: 10%;
+}
+.g h4{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.534);
+    right:25%;
+    margin-top: 25px;
+}
+.g h5{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.534);
+    right:20%;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.r i{
+    color: blue;
+}
+.o i{
+    color: orange;
+}
+.u{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    right:80%;
+    bottom: 7%; 
+    border: solid white 1px;
+}
+.q{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    right:77%;
+    bottom: 7%; 
+    border: solid white 1px;
+}
+.k{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    right:74%;
+    bottom: 7%; 
+    border: solid white 1px;
 }
